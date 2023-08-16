@@ -1,16 +1,10 @@
 {
-    "todos": [
-        {
-            "id": "c715cf66-4522-431e-b3dd-703d413e1efa",
-            "date": "2023-08-16T16:09:58.457Z",
-            "content": "Watch classroom",
-            "done": false
-        },
-        {
-            "id": "a16e1cce-9adc-41d3-acd0-cdaf0f0e467e",
-            "date": "2023-08-16T16:09:58.457Z",
-            "content": "Second TODO with new content",
-            "done": false
-        }
-    ]
+  "todos": [
+    {
+      "id": "b4b0397b-65b4-4a4e-92ed-1342f4f3065d",
+      "date": "2023-08-16T16:30:18.850Z",
+      "content": "Watch classroom",
+      "done": false
+    }
+  ]
 }
