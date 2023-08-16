@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./core/crud.js",
+    "start:app": "npx ts-node ./core/crud.ts",
+    "dev": "nodemon --ext ts,tsx --exec 'npm run start:app'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.5.0",
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.2",
+    "typescript": "^5.1.6",
+    "uuid": "^9.0.0"
   }
 }
