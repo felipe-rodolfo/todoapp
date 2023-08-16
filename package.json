@@ -9,7 +9,8 @@
     "dev:next": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint './**/*.{jsx,jsx,ts,tsx}'",
+    "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,6 +19,11 @@
   "devDependencies": {
     "@types/node": "^20.5.0",
     "@types/react": "18.2.20",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.47.0",
     "nodemon": "^3.0.1"
   },
   "dependencies": {
